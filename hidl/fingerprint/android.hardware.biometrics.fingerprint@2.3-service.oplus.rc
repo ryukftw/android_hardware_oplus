@@ -3,3 +3,4 @@ service vendor.fps_hal_oplus /vendor/bin/hw/android.hardware.biometrics.fingerpr
     user system
     group system
     task_profiles ProcessCapacityHigh MaxPerformance
+    priority -20
