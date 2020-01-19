@@ -30,6 +30,7 @@ using android::hardware::biometrics::fingerprint::V2_3::implementation::Biometri
 int main() {
     sp<IBiometricsFingerprint> bio = new BiometricsFingerprint();
 
+    android::hardware::setMinSchedulerPolicy(bio, SCHED_RR, -20);
     configureRpcThreadpool(1, true /*callerWillJoin*/);
 
     if (bio->registerAsService() != android::OK) {
