@@ -2,3 +2,4 @@ service vendor.fps_hal_oplus /vendor/bin/hw/android.hardware.biometrics.fingerpr
     class late_start
     user system
     group system
+    priority -20
