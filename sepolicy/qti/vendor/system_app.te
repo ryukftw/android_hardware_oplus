@@ -1,3 +1,6 @@
+# Battery Health
+r_dir_file(system_app, vendor_sysfs_usb_supply)
+
 # Touchpanel
 rw_dir_file(system_app, vendor_proc_display)
 
