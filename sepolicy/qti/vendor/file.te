@@ -45,5 +45,8 @@ type vendor_proc_oplus_touch, fs_type, proc_type;
 # Ultrasound
 type vendor_proc_ultrasound, fs_type, proc_type;
 
+# USB fast charge
+type vendor_sysfs_fastcharge, fs_type, sysfs_type;
+
 # Versioning
 type vendor_proc_oplus_version, fs_type, proc_type;

@@ -12,6 +12,8 @@
 
 # Charging
 /vendor/bin/hw/vendor\.lineage\.powershare@1\.0-service\.oplus    u:object_r:hal_lineage_powershare_default_exec:s0
+/sys/devices/platform/soc/soc:oplus,chg_intf/oplus_chg/usb/fastchg_status         u:object_r:vendor_sysfs_battery_supply:s0
+/sys/devices/platform/soc/soc:oplus,chg_intf/soc:oplus,chg_intf:oplus,wireless-charge/oplus_chg/wireless/fastchg_status u:object_r:vendor_sysfs_battery_supply:s0
 
 # Display
 /vendor/bin/hw/vendor\.lineage\.livedisplay@2\.1-service\.oplus    u:object_r:hal_lineage_livedisplay_qti_exec:s0
@@ -124,6 +126,10 @@
 # Ultrasound
 /dev/audio_ultrasound     u:object_r:ultrasound_device:s0
 /dev/sensor_ultrasound    u:object_r:ultrasound_device:s0
+
+# USB fast charge
+/sys/module/oplus_chg/parameters/force_fast_charge      u:object_r:vendor_sysfs_fastcharge:s0
+/sys/module/oplus_chg/parameters/ffc_val                u:object_r:vendor_sysfs_fastcharge:s0
 
 # Vibrator
 /vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.oplus    u:object_r:hal_vibrator_default_exec:s0
