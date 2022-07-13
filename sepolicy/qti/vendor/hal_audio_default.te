@@ -1,3 +1,6 @@
 allow hal_audio_default ultrasound_device:chr_file rw_file_perms;
 
 get_prop(hal_audio_default, boot_status_prop)
+
+allow hal_audio_default hal_dms_hwservice:hwservice_manager find;
+binder_call(hal_audio_default, hal_dms_default)
