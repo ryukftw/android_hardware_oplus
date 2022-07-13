@@ -23,6 +23,15 @@
 /(odm|vendor/odm)/bin/hw/vendor\.pixelworks\.hardware\.display\.iris-service           u:object_r:hal_graphics_composer_default_exec:s0
 /(odm|vendor/odm)/bin/hw/vendor\.pixelworks\.hardware\.feature\.irisfeature-service    u:object_r:hal_graphics_composer_default_exec:s0
 
+# Dolby
+/data/vendor/dolby(/.*)?                                                               u:object_r:vendor_data_file:s0
+/(vendor|system/vendor|odm)/bin/hw/dolbycodec2                                         u:object_r:mediacodec_exec:s0
+/(vendor|system/vendor|odm)/bin/oplusmediaswcodec                                      u:object_r:mediacodec_exec:s0
+/(vendor|system/vendor|odm)/bin/hw/vendor\.dolby\.media\.c2@1\.0-service               u:object_r:mediacodec_exec:s0
+/(vendor|system/vendor|odm)/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service           u:object_r:hal_dms_default_exec:s0
+/(vendor|system/vendor|odm)/bin/hw/vendor\.dolby_v3_6\.hardware\.dms360@2\.0-service   u:object_r:hal_dms_default_exec:s0
+/(vendor|system/vendor|odm)/bin/hw/vendor\.dolby_sp\.hardware\.dmssp@2\.0-service      u:object_r:hal_dms_default_exec:s0
+
 # Engineering
 /mnt/vendor/persist/engineermode(/.*)?    u:object_r:vendor_persist_engineer_file:s0
 
