@@ -55,3 +55,7 @@ persist.sys.tpic.    u:object_r:system_oplus_touch_prop:s0
 
 # Version
 ro.separate.soft    u:object_r:system_oplus_project_prop:s0
+
+# WCNSS
+ro.vendor.vold.serialno                               u:object_r:vendor_vold_prop:s0
+vendor.vold.serialno                                  u:object_r:vendor_vold_prop:s0
