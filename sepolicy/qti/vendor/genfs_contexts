@@ -1,6 +1,9 @@
 # Alert Slider
 genfscon proc /tristatekey    u:object_r:vendor_proc_tri_state_key:s0
 
+# Camera
+genfscon proc /qcom_flash     u:object_r:vendor_proc_flash:s0
+
 # Charging
 genfscon proc /charger                                                    u:object_r:vendor_proc_charger:s0
 genfscon proc /wireless                                                   u:object_r:vendor_proc_wireless:s0
