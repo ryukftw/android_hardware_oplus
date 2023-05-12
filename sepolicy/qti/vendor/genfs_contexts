@@ -52,6 +52,9 @@ genfscon proc /shell-temp           u:object_r:vendor_proc_oplus_touch:s0
 # Ultrasound
 genfscon proc /ultrasound    u:object_r:vendor_proc_ultrasound:s0
 
+# UFS
+genfscon proc /devinfo/ufs    u:object_r:vendor_proc_oplus_ufs:s0
+
 # Versioning
 genfscon proc /oplusVersion    u:object_r:vendor_proc_oplus_version:s0
 genfscon proc /oppoVersion     u:object_r:vendor_proc_oplus_version:s0
