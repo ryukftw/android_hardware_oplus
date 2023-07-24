@@ -1,0 +1,7 @@
+allow {
+  untrusted_app
+  untrusted_app_25
+  untrusted_app_27
+  untrusted_app_29
+  untrusted_app_30
+} { window_service oem_service }:service_manager find;

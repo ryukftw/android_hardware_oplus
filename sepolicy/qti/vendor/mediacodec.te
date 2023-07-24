@@ -1,3 +1,5 @@
+typeattribute mediacodec vendor_hal_qspmhal_client;
+
 set_prop(mediacodec, vendor_video_prop)
 
 allow mediacodec hal_dms_hwservice:hwservice_manager find;

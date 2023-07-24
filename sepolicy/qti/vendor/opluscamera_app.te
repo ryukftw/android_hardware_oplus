@@ -1,0 +1,20 @@
+app_domain(opluscamera_app)
+
+typeattribute opluscamera_app hal_camera_client;
+
+hal_client_domain(opluscamera_app, vendor_hal_dspmanager)
+net_domain(opluscamera_app)
+
+allow opluscamera_app vendor_hal_camera_postproc_hwservice:hwservice_manager find;
+allow opluscamera_app vendor_hal_orms_hwservice:hwservice_manager find;
+
+allow opluscamera_app adsprpcd_file:dir r_dir_perms;
+
+allow opluscamera_app vendor_camera_update_data_file:dir rw_dir_perms;
+allow opluscamera_app vendor_camera_update_data_file:file create_file_perms;
+r_dir_file(opluscamera_app, vendor_persist_camera_file)
+
+allow opluscamera_app vendor_hal_performance_hwservice:hwservice_manager find;
+allow opluscamera_app vendor_hal_dspmanager_hwservice:hwservice_manager find;
+
+binder_call(opluscamera_app, hal_camera_default)

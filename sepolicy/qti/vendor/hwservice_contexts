@@ -41,6 +41,9 @@ vendor.oplus.hardware.orms::IOrmsHalProxy    u:object_r:vendor_hal_orms_hwservic
 # Osense
 vendor.oplus.hardware.osense.client::IOsenseHalReporter    u:object_r:vendor_hal_osense_hwservice:s0
 
+# Performance
+vendor.oplus.hardware.performance::IPerformance    u:object_r:vendor_hal_performance_hwservice:s0
+
 # Sensors
 vendor.oplus.hardware.oplusSensor::ISensorFeature    u:object_r:vendor_hal_oplusSensor_hwservice:s0
 

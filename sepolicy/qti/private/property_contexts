@@ -5,11 +5,38 @@ persist.sys.oplus.autotest.monkeyRunning    u:object_r:exported_system_prop:s0
 persist.sys.bt.a2dp.pendingtime    u:object_r:exported_system_prop:s0
 
 # Camera
-oplus.camera.                    u:object_r:exported_system_prop:s0
-oppo.camera.                     u:object_r:exported_system_prop:s0
-persist.sys.camera.lao.enable    u:object_r:exported_system_prop:s0
-ro.hardware.chipname             u:object_r:exported_system_prop:s0
-ro.oppo.market.                  u:object_r:exported_system_prop:s0
+aec.custom.                                           u:object_r:exported_system_prop:s0
+cam.algo.                                             u:object_r:exported_system_prop:s0
+service.sf.                                           u:object_r:exported_system_prop:s0
+NA                                                    u:object_r:exported_system_prop:s0
+oplus.camera.                                         u:object_r:exported_system_prop:s0
+oppo.camera.                                          u:object_r:exported_system_prop:s0
+oplus.CTP.Tunningmode                                 u:object_r:exported_system_prop:s0
+persist.bps.debug                                     u:object_r:exported_system_prop:s0
+persist.camera.                                       u:object_r:exported_system_prop:s0
+persist.sys.camera.                                   u:object_r:exported_system_prop:s0
+persist.sys.state.                                    u:object_r:exported_system_prop:s0
+persist.vendor.aps.debug.framenum                     u:object_r:exported_system_prop:s0
+persist.vendor.arcsoft.sn.dumprawinfo                 u:object_r:exported_system_prop:s0
+persist.vendor.oplus.rawhdr.dump                      u:object_r:exported_system_prop:s0
+persist.vendor.fastrpc.                               u:object_r:exported_system_prop:s0
+ro.camera.res.                                        u:object_r:exported_system_prop:s0
+ro.camera.req.                                        u:object_r:exported_system_prop:s0
+ro.hardware.chipname                                  u:object_r:exported_system_prop:s0
+ro.oppo.                                              u:object_r:exported_system_prop:s0
+ro.oplus.                                             u:object_r:exported_system_prop:s0
+ro.vendor.oplus.                                      u:object_r:exported_system_prop:s0
+ro.vendor.gfx.                                        u:object_r:exported_system_prop:s0
+sys.oplus.                                            u:object_r:exported_system_prop:s0
+sys.oppo_ftm_mode                                     u:object_r:exported_system_prop:s0
+vendor.aps.                                           u:object_r:exported_system_prop:s0
+vendor.arcsoft.                                       u:object_r:exported_system_prop:s0
+vendor.camera.                                        u:object_r:exported_system_prop:s0
+vendor.debug.is.rioapk                                u:object_r:exported_system_prop:s0
+vendor.debug.magnet.enable                            u:object_r:exported_system_prop:s0
+vendor.oplus.                                         u:object_r:exported_system_prop:s0
+vendor.oppo.                                          u:object_r:exported_system_prop:s0
+vendor.property.debug.caliexif.enable                 u:object_r:exported_system_prop:s0
 
 # Display
 persist.sys.display.iris.absent    u:object_r:system_oplus_iris_prop:s0
@@ -26,14 +53,9 @@ oplus.optical.        u:object_r:system_fingerprint_prop:s0
 persist.sys.fp.       u:object_r:system_fingerprint_prop:s0
 
 # Logging
-persist.camera.assert.panic         u:object_r:exported_system_prop:s0
-persist.camera.OverrideLogLevels    u:object_r:exported_system_prop:s0
 persist.sys.assert.panic            u:object_r:exported_system_prop:s0
-persist.sys.camera.log.scene        u:object_r:exported_system_prop:s0
-persist.sys.debuglog.config         u:object_r:exported_system_prop:s0
-persist.sys.log.ae                  u:object_r:exported_system_prop:s0
-persist.sys.log.af                  u:object_r:exported_system_prop:s0
-persist.sys.log.awb                 u:object_r:exported_system_prop:s0
+persist.sys.debuglog.               u:object_r:exported_system_prop:s0
+persist.sys.log.                    u:object_r:exported_system_prop:s0
 
 # Modem
 persist.sys.enable_modem_dump    u:object_r:exported_system_prop:s0
