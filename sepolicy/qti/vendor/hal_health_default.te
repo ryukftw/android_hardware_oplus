@@ -1,0 +1,1 @@
+allow hal_health_default vendor_hal_charger_hwservice:hwservice_manager find;
