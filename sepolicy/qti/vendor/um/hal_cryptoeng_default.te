@@ -1,0 +1,2 @@
+allow hal_cryptoeng_default vendor_dmabuf_qseecom_heap_device:chr_file rw_file_perms;
+allow hal_cryptoeng_default vendor_dmabuf_qseecom_ta_heap_device:chr_file rw_file_perms;
