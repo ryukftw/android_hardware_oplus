@@ -5,6 +5,9 @@ type vendor_hal_cameraMDM_hwservice, hwservice_manager_type, protected_hwservice
 # Charger
 type vendor_hal_charger_hwservice, hwservice_manager_type, protected_hwservice;
 
+# Cryptoeng
+type hal_cryptoeng_hwservice, hwservice_manager_type, protected_hwservice;
+
 # Dolby
 type hal_dms_hwservice, hwservice_manager_type, protected_hwservice;
 

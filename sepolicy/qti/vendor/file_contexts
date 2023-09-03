@@ -15,6 +15,9 @@
 /sys/devices/platform/soc/soc:oplus,chg_intf/oplus_chg/usb/fastchg_status         u:object_r:vendor_sysfs_battery_supply:s0
 /sys/devices/platform/soc/soc:oplus,chg_intf/soc:oplus,chg_intf:oplus,wireless-charge/oplus_chg/wireless/fastchg_status u:object_r:vendor_sysfs_battery_supply:s0
 
+# CryptoEng
+/(odm|vendor/odm)/bin/hw/vendor\.oplus\.hardware\.cryptoeng@1\.0-service           u:object_r:hal_cryptoeng_default_exec:s0
+
 # Display
 /vendor/bin/hw/vendor\.lineage\.livedisplay@2\.1-service\.oplus    u:object_r:hal_lineage_livedisplay_qti_exec:s0
 /dev/oplus_display                                                 u:object_r:graphics_device:s0
