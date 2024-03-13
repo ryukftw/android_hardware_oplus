@@ -1,1 +1,3 @@
 r_dir_file(vendor_hal_perf_default, vendor_sysfs_usb_supply)
+
+allow vendor_hal_perf_default hal_urcc_service:service_manager { find };

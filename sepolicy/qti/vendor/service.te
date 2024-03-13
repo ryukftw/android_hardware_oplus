@@ -10,5 +10,11 @@ type hal_oplus_performance_aidl_service, hal_service_type, service_manager_type;
 # Project
 type hal_oplus_project_aidl_service, hal_service_type, service_manager_type;
 
+# Sensor
+type hal_oplusSensor_aidl_service, hal_service_type, service_manager_type;
+
 # Touch
 type hal_oplus_touch_aidl_service, hal_service_type, service_manager_type;
+
+# URCC
+type hal_urcc_service, hal_service_type, service_manager_type;
