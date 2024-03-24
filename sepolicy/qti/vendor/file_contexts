@@ -17,6 +17,10 @@
 /vendor/bin/hw/vendor\.lineage\.livedisplay@2\.1-service\.oplus    u:object_r:hal_lineage_livedisplay_qti_exec:s0
 /dev/oplus_display                                                 u:object_r:graphics_device:s0
 
+# Dolby
+/data/vendor/dolby(/.*)?                                                      u:object_r:vendor_dolby_data_file:s0
+/(odm|vendor/odm)/bin/hw/vendor\.dolby_v3_6\.hardware\.dms360@2\.0-service    u:object_r:vendor_hal_dms_default_exec:s0
+
 # Display (Pixelworks)
 /(odm|vendor/odm)/bin/hw/vendor\.pixelworks\.hardware\.display\.iris-service           u:object_r:hal_graphics_composer_default_exec:s0
 /(odm|vendor/odm)/bin/hw/vendor\.pixelworks\.hardware\.feature\.irisfeature-service    u:object_r:hal_graphics_composer_default_exec:s0
