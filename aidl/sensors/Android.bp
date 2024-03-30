@@ -24,6 +24,7 @@ cc_binary {
     vendor: true,
     relative_install_path: "hw",
     srcs: [
+        "AlsCorrection.cpp",
         "service.cpp",
         "HalProxy.cpp",
         "HalProxyCallback.cpp",
@@ -45,8 +46,10 @@ cc_binary {
         "liblog",
         "libpower",
         "libutils",
+        "libbinder",
         "libbinder_ndk",
         "libhidlbase",
+        "vendor.lineage.oplus_als-V1-ndk",
     ],
     static_libs: [
         "libaidlcommonsupport",
