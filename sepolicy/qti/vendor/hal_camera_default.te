@@ -12,7 +12,7 @@ allow hal_camera_default input_device:chr_file rw_file_perms;
 allow hal_camera_default vendor_tof_device:chr_file rw_file_perms;
 
 allow hal_camera_default mnt_vendor_file:dir search;
-
+allow hal_camera_default proc:file rw_file_perms;
 allow hal_camera_default proc_meminfo:file r_file_perms;
 
 allow hal_camera_default vendor_camera_update_data_file:dir rw_dir_perms;
