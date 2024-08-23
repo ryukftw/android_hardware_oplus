@@ -1,3 +1,6 @@
 hal_client_domain(hal_bluetooth_default, vendor_hal_oplus_project)
 
 r_dir_file(hal_bluetooth_default, vendor_proc_oplus_version)
+
+allow hal_bluetooth_default vendor_ramdump_vendor_data_file:dir rw_dir_perms;
+allow hal_bluetooth_default vendor_ramdump_vendor_data_file:file { create getattr w_file_perms };
