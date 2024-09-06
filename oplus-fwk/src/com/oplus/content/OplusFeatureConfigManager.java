@@ -5,7 +5,6 @@
 
 package com.oplus.content;
 
-import android.os.RemoteException;
 import android.text.TextUtils;
 
 import java.util.List;
@@ -22,9 +21,5 @@ public class OplusFeatureConfigManager {
 
     public interface OnFeatureObserver {
         default void onFeatureUpdate(List<String> features) {}
-    }
-
-    public boolean hasFeature(String name) throws RemoteException {
-        return false;
     }
 }
