@@ -1,5 +1,3 @@
-typeattribute hal_camera_default vendor_hal_qspmhal_client;
-
 hal_attribute_hwservice(hal_camera, vendor_hal_camera_extension_hwservice)
 
 hal_client_domain(hal_camera_default, vendor_hal_cameraMDM)
@@ -7,17 +5,11 @@ hal_client_domain(hal_camera_default, vendor_hal_oplus_cammidasservice)
 hal_client_domain(hal_camera_default, vendor_hal_oplus_osense)
 hal_client_domain(hal_camera_default, vendor_hal_oplus_performance)
 
-allow hal_camera_default vendor_hal_camera_postproc_hwservice:hwservice_manager find;
 allow hal_camera_default vendor_hal_orms_hwservice:hwservice_manager find;
 allow hal_camera_default vendor_hal_osense_hwservice:hwservice_manager find;
 
-allow hal_camera_default public_adsprpcd_file:file r_file_perms;
-
 allow hal_camera_default input_device:chr_file rw_file_perms;
 allow hal_camera_default vendor_tof_device:chr_file rw_file_perms;
-allow hal_camera_default cgroup:file rw_file_perms;
-allow hal_camera_default proc:file rw_file_perms;
-allow hal_camera_default vendor_data_file:file rw_file_perms;
 
 allow hal_camera_default mnt_vendor_file:dir search;
 allow hal_camera_default proc:file rw_file_perms;
