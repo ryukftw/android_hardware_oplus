@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi
+package co.aospa.dolby.oplus
 
 import android.util.Log
 
@@ -27,7 +27,7 @@ class DolbyConstants {
     }
 
     companion object {
-        const val TAG = "XiaomiDolby"
+        const val TAG = "OplusDolby"
         const val PREF_ENABLE = "dolby_enable"
         const val PREF_PROFILE = "dolby_profile"
         const val PREF_PRESET = "dolby_preset"

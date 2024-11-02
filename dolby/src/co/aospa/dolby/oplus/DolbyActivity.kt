@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi
+package co.aospa.dolby.oplus
 
 import android.os.Bundle
-import co.aospa.dolby.xiaomi.preference.DolbySettingsFragment
+import co.aospa.dolby.oplus.preference.DolbySettingsFragment
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity
 
 private const val TAG = "DolbyActivity"

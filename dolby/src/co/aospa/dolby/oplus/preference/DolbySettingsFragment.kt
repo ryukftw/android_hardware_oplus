@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi.preference
+package co.aospa.dolby.oplus.preference
 
 import android.media.AudioAttributes
 import android.media.AudioDeviceCallback
@@ -20,21 +20,21 @@ import androidx.preference.Preference
 import androidx.preference.Preference.OnPreferenceChangeListener
 import androidx.preference.PreferenceFragment
 import androidx.preference.SwitchPreferenceCompat
-import co.aospa.dolby.xiaomi.DolbyConstants
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_BASS
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_DIALOGUE
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_ENABLE
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_HP_VIRTUALIZER
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_IEQ
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_PRESET
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_PROFILE
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_RESET
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_SPK_VIRTUALIZER
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_STEREO
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.PREF_VOLUME
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.dlog
-import co.aospa.dolby.xiaomi.DolbyController
-import co.aospa.dolby.xiaomi.R
+import co.aospa.dolby.oplus.DolbyConstants
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_BASS
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_DIALOGUE
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_ENABLE
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_HP_VIRTUALIZER
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_IEQ
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_PRESET
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_PROFILE
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_RESET
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_SPK_VIRTUALIZER
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_STEREO
+import co.aospa.dolby.oplus.DolbyConstants.Companion.PREF_VOLUME
+import co.aospa.dolby.oplus.DolbyConstants.Companion.dlog
+import co.aospa.dolby.oplus.DolbyController
+import co.aospa.dolby.oplus.R
 import com.android.settingslib.widget.MainSwitchPreference
 
 class DolbySettingsFragment : PreferenceFragment(),

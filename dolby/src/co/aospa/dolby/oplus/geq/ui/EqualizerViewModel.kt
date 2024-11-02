@@ -4,16 +4,16 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi.geq.ui
+package co.aospa.dolby.oplus.geq.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import co.aospa.dolby.xiaomi.geq.data.EqualizerRepository
-import co.aospa.dolby.xiaomi.geq.data.Preset
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.dlog
+import co.aospa.dolby.oplus.geq.data.EqualizerRepository
+import co.aospa.dolby.oplus.geq.data.Preset
+import co.aospa.dolby.oplus.DolbyConstants.Companion.dlog
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.drop

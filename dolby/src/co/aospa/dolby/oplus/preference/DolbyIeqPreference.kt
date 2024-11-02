@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi.preference
+package co.aospa.dolby.oplus.preference
 
 import android.content.Context
 import android.util.AttributeSet
@@ -13,7 +13,7 @@ import android.widget.ImageView
 import androidx.appcompat.content.res.AppCompatResources
 import androidx.preference.ListPreference
 import androidx.preference.PreferenceViewHolder
-import co.aospa.dolby.xiaomi.R
+import co.aospa.dolby.oplus.R
 
 // Preference with icon on the right side
 class DolbyIeqPreference(
