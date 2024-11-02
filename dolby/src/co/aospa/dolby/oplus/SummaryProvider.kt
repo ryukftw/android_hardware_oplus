@@ -5,14 +5,14 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi
+package co.aospa.dolby.oplus
 
 import android.content.ContentProvider
 import android.content.ContentValues
 import android.database.Cursor
 import android.net.Uri
 import android.os.Bundle
-import co.aospa.dolby.xiaomi.R
+import co.aospa.dolby.oplus.R
 import com.android.settingslib.drawer.TileUtils.META_DATA_PREFERENCE_SUMMARY
 
 private const val KEY_DOLBY = "dolby"

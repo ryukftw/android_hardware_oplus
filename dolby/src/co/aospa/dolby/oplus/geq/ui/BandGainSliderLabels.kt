@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi.geq.ui
+package co.aospa.dolby.oplus.geq.ui
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -18,7 +18,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import co.aospa.dolby.xiaomi.R
+import co.aospa.dolby.oplus.R
 
 @Composable
 fun BandGainSliderLabels() {

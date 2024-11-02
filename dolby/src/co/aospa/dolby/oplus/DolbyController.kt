@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package co.aospa.dolby.xiaomi
+package co.aospa.dolby.oplus
 
 import android.content.Context
 import android.media.AudioDeviceCallback
@@ -15,9 +15,9 @@ import android.media.AudioPlaybackConfiguration
 import android.os.Handler
 import android.util.Log
 import androidx.preference.PreferenceManager
-import co.aospa.dolby.xiaomi.DolbyConstants.Companion.dlog
-import co.aospa.dolby.xiaomi.DolbyConstants.DsParam
-import co.aospa.dolby.xiaomi.R
+import co.aospa.dolby.oplus.DolbyConstants.Companion.dlog
+import co.aospa.dolby.oplus.DolbyConstants.DsParam
+import co.aospa.dolby.oplus.R
 
 internal class DolbyController private constructor(
     private val context: Context
