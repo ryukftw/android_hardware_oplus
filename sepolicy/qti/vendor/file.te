@@ -65,6 +65,9 @@ type vendor_sysfs_sensor_fb, fs_type, sysfs_type;
 # TOF
 type vendor_sysfs_tof, fs_type, sysfs_type;
 
+# Torch
+type sysfs_torch, fs_type, sysfs_type;
+
 # Touch
 type oplus_touchdaemon_socket, file_type;
 type vendor_persist_oplus_touch_file, file_type, data_file_type;
