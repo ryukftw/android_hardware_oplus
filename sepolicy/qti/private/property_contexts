@@ -14,7 +14,6 @@ cam.algo.                        u:object_r:exported_system_prop:s0
 com.oplus.camera.                u:object_r:exported_system_prop:s0
 oplus.camera.                    u:object_r:exported_system_prop:s0
 oppo.camera.                     u:object_r:exported_system_prop:s0
-persist.camera.                  u:object_r:exported_system_prop:s0
 persist.sys.camera.lao.enable    u:object_r:exported_system_prop:s0
 ro.camera.res.                   u:object_r:exported_system_prop:s0
 ro.camera.req.                   u:object_r:exported_system_prop:s0
