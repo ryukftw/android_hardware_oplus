@@ -24,6 +24,9 @@ type hal_display_iris_aidl_service, hal_service_type, service_manager_type;
 # eSIM
 type hal_oplus_esim_aidl_service, hal_service_type, service_manager_type;
 
+# Fingerprint
+type hal_fingerprint_service, hal_service_type, service_manager_type;
+
 # Fingerprint Pay
 type hal_fingerprintpay_service, hal_service_type, service_manager_type;
 

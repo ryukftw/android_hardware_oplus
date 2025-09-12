@@ -1,0 +1,45 @@
+//
+// Copyright (C) 2024-2025 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_binary {
+    name: "android.hardware.biometrics.fingerprint-service.oplus",
+    vendor: true,
+    relative_install_path: "hw",
+    init_rc: ["android.hardware.biometrics.fingerprint-service.oplus.rc"],
+    vintf_fragments: ["android.hardware.biometrics.fingerprint-service.oplus.xml"],
+    local_include_dirs: ["include"],
+    srcs: [
+        "CancellationSignal.cpp",
+        "Fingerprint.cpp",
+        "LockoutTracker.cpp",
+        "Session.cpp",
+        "service.cpp",
+    ],
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "android.hardware.biometrics.fingerprint@2.1",
+        "android.hardware.biometrics.fingerprint@2.2", 
+        "android.hardware.biometrics.fingerprint@2.3",
+        "vendor.oplus.hardware.biometrics.fingerprint@2.1",
+    ],
+    static_libs: [
+        "android.hardware.biometrics.fingerprint-V4-ndk",
+        "android.hardware.biometrics.common-V4-ndk",
+        "android.hardware.keymaster-V4-ndk",
+    ],
+    required: ["qwerty.kl"],
+}
+
+prebuilt_usr_keylayout {
+    name: "qwerty.kl",
+    src: "qwerty.kl",
+    vendor: true,
+}

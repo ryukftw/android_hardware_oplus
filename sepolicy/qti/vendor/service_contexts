@@ -27,6 +27,9 @@ vendor.pixelworks.hardware.display.IIris/default    u:object_r:hal_display_iris_
 # eSIM
 vendor.oplus.hardware.esim.IOplusEsim/default    u:object_r:hal_oplus_esim_aidl_service:s0
 
+# Fingerprint
+android.hardware.biometrics.fingerprint.IFingerprint/default    u:object_r:hal_fingerprint_service:s0
+
 # Fingerprint Pay
 vendor.oplus.hardware.biometrics.fingerprintpay.IFingerprintPay/default    u:object_r:hal_fingerprintpay_service:s0
 
