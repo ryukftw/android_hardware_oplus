@@ -203,3 +203,7 @@
 /(odm|vendor/odm)/bin/wlchgmonitor    u:object_r:wlchgmonitor_exec:s0
 /dev/wlchg                            u:object_r:wlchg_device:s0
 /dev/wls_dev                          u:object_r:wlchg_device:s0
+
+/proc/stat                                     u:object_r:proc_stat:s0
+/sys/class/kgsl/kgsl-3d0/gpu_busy_percentage   u:object_r:vendor_sysfs_kgsl:s0
+/sys/class/kgsl/kgsl-3d0/temp                  u:object_r:vendor_sysfs_kgsl:s0

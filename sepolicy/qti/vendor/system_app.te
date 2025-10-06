@@ -1,0 +1,26 @@
+# Display
+allow system_app vendor_sysfs_graphics:dir search;
+allow system_app vendor_sysfs_graphics:file { getattr open read rw_file_perms };
+
+# Bypass charging
+allow system_app vendor_sysfs_battery_supply:dir search;
+allow system_app vendor_sysfs_battery_supply:file r_file_perms;
+allow system_app vendor_sysfs_usb_supply:dir search;
+allow system_app vendor_sysfs_usb_supply:file rw_file_perms;
+
+# Gamebar - CPU and thermal info
+allow system_app proc_stat:file { read open getattr };
+allow system_app sysfs_devices_system_cpu:file r_file_perms;
+allow system_app sysfs_thermal:dir search;
+allow system_app sysfs_thermal:file r_file_perms;
+
+# Gamebar - GPU info
+allow system_app vendor_sysfs_kgsl_gpuclk:file { read open getattr };
+allow system_app vendor_sysfs_kgsl:dir search;
+allow system_app vendor_sysfs_kgsl:file { read open getattr };
+
+# Antiflicker and Auto HBM
+allow system_app vendor_proc_display:dir search;
+allow system_app vendor_proc_display:file rw_file_perms;
+allow system_app vendor_sysfs_sde_crtc:dir search;
+allow system_app vendor_sysfs_sde_crtc:file rw_file_perms;
